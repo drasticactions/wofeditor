@@ -1,0 +1,11 @@
+﻿<Application x:Class="WofEditor.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WofEditor.WPF"
+             xmlns:tools="clr-namespace:WofEditor.WPF.Tools"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <tools:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
+        <tools:NullToVisibilityInverter x:Key="NullToVisibilityInverter"/>
+    </Application.Resources>
+</Application>

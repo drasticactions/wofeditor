@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WoF
 {
-    [ImplementPropertyChanged]
+    [AddINotifyPropertyChangedInterface]
     public class GameQuestion
     {
         public string Question { get; set; }
